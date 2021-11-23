@@ -3,8 +3,7 @@ from datetime import date
 
 VERSION = '1.21.11.0'
 
-league_game_servers = {'BR': '104.160.152.3', 'EUNE': '104.160.142.3', 'EUW': '104.160.141.3',
-                       'LAN': '104.160.136.3', 'NA': '104.160.131.3', 'OCE': '104.160.156.1', 'RU': '162.249.73.2'}
+league_game_servers = {'BR': '104.160.152.3', 'NA': '104.160.131.102'}
 
 
 def ping_single_game_server(server_key: str):
